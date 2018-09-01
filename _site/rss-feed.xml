@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>GOOSE HOUSE</title>
+		<title>GOOSEHOUSE</title>
 		<description>some record about study life</description>
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>这下终于开通博客了</title>
+				<title>这下终于开通博客了 </title>
+				
+					<dc:creator>Fan Yuanxiang</dc:creator>
 				
 				
 					<description>&lt;h1 id=&quot;这下终于开通博客了&quot;&gt;这下终于开通博客了&lt;/h1&gt;
@@ -15,8 +17,8 @@
 </description>
 				
 				<pubDate>Fri, 31 Aug 2018 00:00:00 +0900</pubDate>
-				<link>http://localhost:4000/%E8%BF%99%E4%B8%8B%E7%BB%88%E4%BA%8E%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E4%BA%86.html</link>
-				<guid isPermaLink="true">http://localhost:4000/%E8%BF%99%E4%B8%8B%E7%BB%88%E4%BA%8E%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E4%BA%86.html</guid>
+				<link>http://localhost:4000/journal/%E8%BF%99%E4%B8%8B%E7%BB%88%E4%BA%8E%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E4%BA%86.html</link>
+				<guid isPermaLink="true">http://localhost:4000/journal/%E8%BF%99%E4%B8%8B%E7%BB%88%E4%BA%8E%E5%BC%80%E9%80%9A%E5%8D%9A%E5%AE%A2%E4%BA%86.html</guid>
 			</item>
 		
 			<item>
