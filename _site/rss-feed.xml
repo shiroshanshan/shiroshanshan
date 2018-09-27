@@ -7,12 +7,61 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>A new design principle for an autonomous robot</title>
+				
+					<dc:creator>Fan Yuanxiang</dc:creator>
+				
+				
+					<description>&lt;h1 id=&quot;recent&quot;&gt;Recent&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;font face=&quot;微软雅黑&quot;&gt;最近很是苦恼啊。
+&lt;br /&gt;一直怀疑中村给的题目到底能不能做出来。  
+&lt;br /&gt;根据佛教的观点，&lt;b&gt;欲求&lt;/b&gt;是&lt;b&gt;痛苦&lt;/b&gt;的根源&lt;b&gt;(頭おかしい)&lt;/b&gt;。  
+&lt;br /&gt;那么是不是不应该对研究甚至对毕业都要做到&lt;b&gt;无欲无求&lt;/b&gt;才能不痛苦呢。  
+&lt;br /&gt;或者应该沉浸到研究这件事中才能&lt;b&gt;好好享受&lt;/b&gt;呢。  
+&lt;br /&gt;或许应该改变一下对现在所做的事的看法了。  
+&lt;br /&gt;最后做一点总结一下帮助自己理清一下思路吧。 
+&lt;br /&gt; 
+&lt;br /&gt;(以上前段时间是一边沉迷dota2一边做研究的口胡)
+&lt;br /&gt;
+&lt;br /&gt;也写一点最近的感受吧。中期发表结束后，老吴也暂时回国了，竟莫名感到一丝寂寥，可能是上年纪了吧，开始害怕孤独了哈哈哈。在被石黑怼之后，连续打了两天dota&lt;b&gt;（やばっ）&lt;/b&gt;，今天决定到学校稍微更新一下博客。在meeting上还是可以感觉到中村对这个研究还是很感兴趣的，只是石黑应该和更希望我多做一点关于HRI的研究吧。&lt;s&gt;（石黑老贼吃我正方形打野哈哈哈）&lt;/s&gt;
+&lt;br /&gt;由于会上还被Ogawa先生说到Alter应该是生物而不是机器人，所以打算重读一遍Ikegami先生写的关于Alter的论文&lt;a href=&quot;http://cognet.mit.edu/pdfviewer/journal/ecal_a_080&quot;&gt;A New Design Principle for an Autonomos Robot&lt;/a&gt;。&lt;/font&gt;
+&lt;h1 id=&quot;body&quot;&gt;Body&lt;/h1&gt;
+&lt;hr /&gt;
+
+</description>
+				
+				<pubDate>Thu, 06 Sep 2018 00:00:00 +0900</pubDate>
+				<link>http://localhost:4000/journal/HUMAN-ROBOT-INTERACTION.html</link>
+				<guid isPermaLink="true">http://localhost:4000/journal/HUMAN-ROBOT-INTERACTION.html</guid>
+			</item>
+		
+			<item>
 				<title>这下终于开通博客了 </title>
 				
 					<dc:creator>Fan Yuanxiang</dc:creator>
 				
 				
-					<description>&lt;h1 id=&quot;这下终于开通博客了&quot;&gt;这下终于开通博客了&lt;/h1&gt;
+					<description>&lt;h1 id=&quot;最近&quot;&gt;最近&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;font face=&quot;微软雅黑&quot;&gt;转眼来日本也是快有一年了，自从羽毛同学走了之后&lt;b&gt;（！）&lt;/b&gt;，连平时闲聊的对象都没有了，为了防止变得自闭233，同时鼓励自己今后也多多在上面记录，第一次博客的内容还是要写的认真一些的。  
+再犹豫了很久到底写什么好之后，想到介绍一下来这边之后读的第一篇论文&lt;a href=&quot;https://link.springer.com/content/pdf/10.1007%2Fs10514-016-9604-y.pdf&quot;&gt;A confidence-based roadmap using Gaussian process regression&lt;/a&gt;&lt;s&gt;（似乎暴露了什么）&lt;/s&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;../assets/img/ganbare.jpeg&quot; /&gt;
+&lt;br /&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;加油&lt;/b&gt;&lt;s&gt;（然而现在模型和数据收集都还没做好)&lt;/s&gt;&lt;/font&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+不得不说在markdown里可以使用html5可以说是相当方便了
+&lt;br /&gt;&lt;/font&gt;
+&lt;h1 id=&quot;正文部分&quot;&gt;正文部分&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;keywords&quot;&gt;Keywords&lt;/h2&gt;
+&lt;p&gt;Sample-based motion planning, Gaussian process regression, Probability roadmap&lt;/p&gt;
 
 </description>
 				

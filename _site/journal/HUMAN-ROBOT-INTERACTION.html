@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      A new design principle for an autonomous robot | GOOSEHOUSE
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="GOOSEHOUSE" />
+  <!-- Use RSS-2.0 -->
+  <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="GOOSEHOUSE | some record about study life"/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-112060364-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>A new design principle for an autonomous robot | GOOSEHOUSE</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="A new design principle for an autonomous robot" />
+<meta name="author" content="Fan Yuanxiang" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Recent 最近很是苦恼啊。 一直怀疑中村给的题目到底能不能做出来。 根据佛教的观点，欲求是痛苦的根源(頭おかしい)。 那么是不是不应该对研究甚至对毕业都要做到无欲无求才能不痛苦呢。 或者应该沉浸到研究这件事中才能好好享受呢。 或许应该改变一下对现在所做的事的看法了。 最后做一点总结一下帮助自己理清一下思路吧。 (以上前段时间是一边沉迷dota2一边做研究的口胡) 也写一点最近的感受吧。中期发表结束后，老吴也暂时回国了，竟莫名感到一丝寂寥，可能是上年纪了吧，开始害怕孤独了哈哈哈。在被石黑怼之后，连续打了两天dota（やばっ），今天决定到学校稍微更新一下博客。在meeting上还是可以感觉到中村对这个研究还是很感兴趣的，只是石黑应该和更希望我多做一点关于HRI的研究吧。（石黑老贼吃我正方形打野哈哈哈） 由于会上还被Ogawa先生说到Alter应该是生物而不是机器人，所以打算重读一遍Ikegami先生写的关于Alter的论文A New Design Principle for an Autonomos Robot。 Body" />
+<meta property="og:description" content="Recent 最近很是苦恼啊。 一直怀疑中村给的题目到底能不能做出来。 根据佛教的观点，欲求是痛苦的根源(頭おかしい)。 那么是不是不应该对研究甚至对毕业都要做到无欲无求才能不痛苦呢。 或者应该沉浸到研究这件事中才能好好享受呢。 或许应该改变一下对现在所做的事的看法了。 最后做一点总结一下帮助自己理清一下思路吧。 (以上前段时间是一边沉迷dota2一边做研究的口胡) 也写一点最近的感受吧。中期发表结束后，老吴也暂时回国了，竟莫名感到一丝寂寥，可能是上年纪了吧，开始害怕孤独了哈哈哈。在被石黑怼之后，连续打了两天dota（やばっ），今天决定到学校稍微更新一下博客。在meeting上还是可以感觉到中村对这个研究还是很感兴趣的，只是石黑应该和更希望我多做一点关于HRI的研究吧。（石黑老贼吃我正方形打野哈哈哈） 由于会上还被Ogawa先生说到Alter应该是生物而不是机器人，所以打算重读一遍Ikegami先生写的关于Alter的论文A New Design Principle for an Autonomos Robot。 Body" />
+<link rel="canonical" href="http://localhost:4000/journal/HUMAN-ROBOT-INTERACTION.html" />
+<meta property="og:url" content="http://localhost:4000/journal/HUMAN-ROBOT-INTERACTION.html" />
+<meta property="og:site_name" content="GOOSEHOUSE" />
+<meta property="og:image" content="http://localhost:4000/lancelot.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-09-06T00:00:00+09:00" />
+<script type="application/ld+json">
+{"description":"Recent 最近很是苦恼啊。 一直怀疑中村给的题目到底能不能做出来。 根据佛教的观点，欲求是痛苦的根源(頭おかしい)。 那么是不是不应该对研究甚至对毕业都要做到无欲无求才能不痛苦呢。 或者应该沉浸到研究这件事中才能好好享受呢。 或许应该改变一下对现在所做的事的看法了。 最后做一点总结一下帮助自己理清一下思路吧。 (以上前段时间是一边沉迷dota2一边做研究的口胡) 也写一点最近的感受吧。中期发表结束后，老吴也暂时回国了，竟莫名感到一丝寂寥，可能是上年纪了吧，开始害怕孤独了哈哈哈。在被石黑怼之后，连续打了两天dota（やばっ），今天决定到学校稍微更新一下博客。在meeting上还是可以感觉到中村对这个研究还是很感兴趣的，只是石黑应该和更希望我多做一点关于HRI的研究吧。（石黑老贼吃我正方形打野哈哈哈） 由于会上还被Ogawa先生说到Alter应该是生物而不是机器人，所以打算重读一遍Ikegami先生写的关于Alter的论文A New Design Principle for an Autonomos Robot。 Body","author":{"@type":"Person","name":"Fan Yuanxiang"},"@type":"BlogPosting","url":"http://localhost:4000/journal/HUMAN-ROBOT-INTERACTION.html","image":"http://localhost:4000/lancelot.jpg","headline":"A new design principle for an autonomous robot","dateModified":"2018-09-06T00:00:00+09:00","datePublished":"2018-09-06T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/journal/HUMAN-ROBOT-INTERACTION.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">GOOSEHOUSE</a>
+    <small class="masthead-subtitle">some record about study life</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/about.html">About</a>
+    
+      <a href="/menu/writing.html">Writing</a>
+    
+      <a href="/menu/contact.html">Contact</a>
+    
+      <a href="/menu/photos.html">Photos</a>
+    
+      <a href="/menu/map.html">Map</a>
+    
+      <a href="/menu/mmd.html">Model</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+  
+  
+    <a href="https://github.com/shiroshanshan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://twitter.com/ml161616zero" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://www.linkedin.com/in/%E8%BF%9C%E7%BF%94-%E8%8C%83-b28326a0/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="mailto:fan.yuanxiang@irl.sys.es.osaka-u.ac.jp" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="/feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+  
+
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  A new design principle for an autonomous robot
+</h1>
+
+
+  <img src="/assets/img/lancelot.jpg">
+
+
+<h1 id="recent">Recent</h1>
+<hr />
+
+<font face="微软雅黑">最近很是苦恼啊。
+<br />一直怀疑中村给的题目到底能不能做出来。  
+<br />根据佛教的观点，<b>欲求</b>是<b>痛苦</b>的根源<b>(頭おかしい)</b>。  
+<br />那么是不是不应该对研究甚至对毕业都要做到<b>无欲无求</b>才能不痛苦呢。  
+<br />或者应该沉浸到研究这件事中才能<b>好好享受</b>呢。  
+<br />或许应该改变一下对现在所做的事的看法了。  
+<br />最后做一点总结一下帮助自己理清一下思路吧。 
+<br /> 
+<br />(以上前段时间是一边沉迷dota2一边做研究的口胡)
+<br />
+<br />也写一点最近的感受吧。中期发表结束后，老吴也暂时回国了，竟莫名感到一丝寂寥，可能是上年纪了吧，开始害怕孤独了哈哈哈。在被石黑怼之后，连续打了两天dota<b>（やばっ）</b>，今天决定到学校稍微更新一下博客。在meeting上还是可以感觉到中村对这个研究还是很感兴趣的，只是石黑应该和更希望我多做一点关于HRI的研究吧。<s>（石黑老贼吃我正方形打野哈哈哈）</s>
+<br />由于会上还被Ogawa先生说到Alter应该是生物而不是机器人，所以打算重读一遍Ikegami先生写的关于Alter的论文<a href="http://cognet.mit.edu/pdfviewer/journal/ecal_a_080">A New Design Principle for an Autonomos Robot</a>。</font>
+<h1 id="body">Body</h1>
+<hr />
+
+<h2 id="abstract">Abstract</h2>
+
+<h2 id="terminology">Terminology</h2>
+<ul>
+  <li><strong>internal dynamics:</strong>In this study, two antonomous systems (SNN and CPG) are used as internal dynamics.</li>
+  <li><strong>CPG(central pattern generator):</strong>how to implement CPG by python? <a href="https://www.researchgate.net/publication/265304330_How_to_Build_Spiking_CPG_Models_Using_Python">it can be find in this page</a>. The principle, derivative equation and how to integrate by computer is introduced in this page.</li>
+</ul>
+
+
+<span class="post-date">
+  Written on
+  
+  September
+  6th,
+  2018
+  by
+  
+    Fan Yuanxiang
+  
+</span>
+
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=A new design principle for an autonomous robot&amp;url=/journal/HUMAN-ROBOT-INTERACTION.html" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/journal/HUMAN-ROBOT-INTERACTION.html&amp;title=A new design principle for an autonomous robot" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=/journal/HUMAN-ROBOT-INTERACTION.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="related">
+  <h1 >You may also enjoy:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+        
+      
+    
+      
+        
+        
+      
+    
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+
+    </div>
+
+    <footer class="footer">
+  
+  
+  
+    <a href="https://github.com/shiroshanshan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://twitter.com/ml161616zero" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://www.linkedin.com/in/%E8%BF%9C%E7%BF%94-%E8%8C%83-b28326a0/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="mailto:fan.yuanxiang@irl.sys.es.osaka-u.ac.jp" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="/feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+  
+
+  <div class="post-date"><a href="/menu/about.html">GOOSEHOUSE | some record about study life by Fan Yuanxiang</a></div>
+</footer>
+
+  </div>
+
+</body>
+</html>
