@@ -35,6 +35,7 @@ Alter learned two tasks in this study, that is, raising hand when people approac
 * **STDP (spike-timing-dependent plasticty):**that is, network weight can change depending on time.
 * **LSA (learning by stimulus avoidance):**it is well explained in this paper.
 * **hebbian learning:**it is well explained in this <a href='https://blog.csdn.net/jyl1999xxxx/article/details/75104930'>page</a>
+
 # Some idea
 
 <HR>
