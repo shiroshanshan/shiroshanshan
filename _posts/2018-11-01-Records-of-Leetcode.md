@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "记录一下自己在leetcode上的练习"(长期更新)
+title: "记录一下自己在leetcode上的练习(长期更新)"
 author: "Fan Yuanxiang"
 categories: journal
 tags: [Leetcode, Algorithm]
