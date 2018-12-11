@@ -12,6 +12,7 @@ menu:
 - {name: 'Photos', path: 'menu', url: 'photos.html'}
 - {name: 'Map', path: 'menu', url: 'map.html'}
 - {name: 'Model', path: 'menu', url: 'mmd.html'}
+- {name: 'imgs', path: 'menu', url: 'imgs.html'}
 
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
