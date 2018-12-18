@@ -3,11 +3,11 @@ layout: page
 title: Welcome to my homepage!
 ---
 
-I'm Fan, comes from Ishiguro Lab of Osaka University. I'm studying robot motion planning now and interesting in ML. I got my bachelor degree of Engineering in Sichuan University and my major was process equipment and control process.
+I'm Fan, a master student studying in [Ishiguro Lab](https://eng.irl.sys.es.osaka-u.ac.jp/) now. I'm researching robot motion planning and learning technologies of data science now. I took bachelor of engineering in the [Sichuan University](http://www.scu.edu.cn/).
 
 # Interest
 
-ML, Travel, Animation, Dota2. Want to develop AI in video games.
+Machine Learning, Game Development, Design, Traveling.
 
 # Project
 
@@ -15,8 +15,9 @@ Can be found in my <a href='https://github.com/shiroshanshan'>github</a>.
 
 # Skill
 
-Python, C, Photoshop, Illustrator, CAD, Blender.
+Python, C, JavaScript, Photoshop, Illustrator, CAD, Blender.
 
-#Award
+#Development Experience
 
-TBF
+* [AR rhythm game in IOS](https://github.com/shiroshanshan/ARkit-MMD-IOS): in progress.
+* [Virtual Agent Interaction System](https://github.com/shiroshanshan/generate-motion-from-roadmap): in progress.
