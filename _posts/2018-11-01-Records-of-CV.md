@@ -1,27 +1,14 @@
 ---
 layout: post
-title: "记录一下自己在leetcode上的练习(长期更新)"
+title: "Records of CV"
 author: "Fan Yuanxiang"
 categories: journal
-tags: [Leetcode, Algorithm]
+tags: [CV, Algorithm]
 image: dota670.png
 ---
 # 最近
 <HR>
-昨天看9神的直播看到5点hhhh(也是醉的不行)，不得不感叹一下09也不是之前那个09了，真的是物是人非啊。  
-以上写于2018.10.05。
-
-原计划周更的博客变成了月更2333，不过周期长一点也希望最能够坚持下去吧。这次更新是因为发现上课会学到很多CV的知识，想要系统性的整理一下。以下进入正题。
-# 小小的装一个逼（虽然没有人看）
-<HR>
-<div align="center">
-<img src="../assets/img/leetcode_00.png"/>
-<br><font size='3'>Maximum Product Subarray</font>
-</div>
-<div align="center">
-<img src="../assets/img/leetcode_01.png"/>
-<br><font size='3'>String to Integer (atoi)</font>
-</div>
+昨天居然看9神的直播看到5点(真是令人怀念啊)，也不得不感叹一下09也不是之前那个09了。这次更新是因为发现上课会学到很多CV的知识，想要系统性的整理一下。以下进入正题。
 # 一些关于CV的笔记
 <HR>
 ## Some concepts
